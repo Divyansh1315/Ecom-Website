@@ -27,7 +27,7 @@ html,body{
 #nav {
     /* height: 100px; */
     width: 100%;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     position: fixed;
     z-index: 99;
     display: flex;
@@ -46,6 +46,16 @@ html,body{
 #links {
     padding: 10px;
 } 
+
+#nav-part1{
+    /* background-color: red; */
+    height: 82px;
+    overflow: hidden;
+}
+
+#nav-part1 svg{
+    display: block;
+}
 
 #nav-part2 #links a {
     text-transform: uppercase;
@@ -154,6 +164,11 @@ html,body{
     position: absolute;
     z-index: 9;
     background-color: rgb(229, 156, 186);
+    text-align: center;
+}
+
+#page2 .dets{
+margin-top: 10px;
 }
 
 #page3 {
